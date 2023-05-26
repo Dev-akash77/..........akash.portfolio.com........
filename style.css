@@ -1,0 +1,673 @@
+ @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Darumadrop+One&family=Foldit:wght@100&family=Lobster&display=swap');
+
+*{
+    margin:0
+    padding:0
+}
+html{
+        62.5%;
+
+   scroll-behavior:smooth;
+   
+   
+}
+body{
+
+    color: white;
+    background-color:#000;
+    font-family: 'Playfair Display', serif;
+}
+/*-----header section start------*/
+#head{
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+    margin:2rem;
+    top:-4rem;
+    background-color:#1a1a00;
+    width:90rem;
+    left: -6rem;
+    
+    
+}
+nav{
+  word-spacing:2rem;
+  font-family: 'Playfair Display', serif;
+  
+  
+  }
+  .navbar a{
+      color:white;
+      text-decoration:none;
+      font-size:1.8rem;
+      position: relative;
+      top:5rem;
+      left: 1rem;
+      transition: .5s linear;
+  }
+  .akash{
+      color:red;
+      border-bottom: .2rem solid red;
+      font-size: 2rem;
+  }
+    
+    .navbar a:hover{
+        color: red;
+        border-bottom: .2rem solid red;
+        font-size: 2rem;
+    }
+
+  .logo h1{
+      position: relative;
+      font-size: 4rem;
+      left:-2rem;
+      font-family: 'Playfair Display', serif;
+  }
+ .logodesign{
+      color: red;
+      font-size: 5rem;
+      
+  }
+    /*header section end*/
+/*------HERO SECTION START-------*/
+#hero{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin:0 20rem;
+    right: 8rem;
+    
+}
+.akash1 img{
+    position:relative;
+    width:44rem;
+    left:6rem;
+    z-index: -5000;
+    
+  }
+  .right1{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width:20rem;
+      height: 40rem;
+   left:-10rem;
+      
+  }
+  .R1intro{
+      font-size:2rem;
+      width: 30rem;
+      word-spacing:.4rem;
+      font-weight: 800;
+  }
+  .R1myname h1 p{
+      font-size:3rem;
+      word-spacing:1rem;
+      width: 40rem;
+      line-height:10rem;
+      
+     }
+.R1myname h1 p span{
+    color: red;
+   }
+/*------HERO SECTION END-------*/
+/*-----ABOUT SECTION START------*/
+
+
+.row{
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    top:10rem;
+    margin:2rem;
+    padding: 0 10rem;
+    
+    
+}
+.akash2 img{
+    position: relative;
+    
+    width:35rem;
+    right: 10rem;
+    border-radius:7rem;
+    
+    height: 50rem;
+    animation: colorchange 1s infinite;
+    
+}
+@keyframes colorchange{
+    0%{
+        background-color:rgba(255,0,0,.4);
+    }
+    
+    33%{
+        background-color:rgba(0,255,0,.4);
+    }
+      66% {
+          background-color: rgba(255, 0, 0, .4);
+      }
+        100% {
+            background-color: rgba(0, 0, 255, .4);
+        }
+}
+.R2about h2{
+    font-size: 5rem;
+    position: relative;
+    top:-4rem;
+    left:3rem;
+    
+}
+.lorem{
+    background-color:;
+    width:48rem;
+    position: absolute;
+    
+}
+.lorem p{
+    font-size: 1rem;
+    top:6rem;
+    
+    position:relative;
+    left:38rem;
+    width:30rem;
+    
+}
+.link {
+    position:relative;
+    top: 20rem;
+    display:flex;
+    justify-content:space-around;
+    width:20rem;
+    height: 40rem;
+    background-color: ed;
+}
+ .experience{
+    position:relative;
+    margin:0 11rem;
+    text-decoration: none;
+    font-size:2.4rem;
+    right:15rem;
+    color:orange;
+    height: 0;
+    font-weight:400;
+    width: 0rem;
+    cursor: pointer;
+    transition: 1s ease;
+    
+}
+.work{
+    position:relative;
+    margin:0 11rem;
+    text-decoration: none;
+    font-size:2.4rem;
+    right:15rem;
+    color:orange;
+    height: 0;
+    font-weight:400;
+    width: 0rem;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.experience:hover{
+    font-size:2.7rem;
+    color:red;
+}
+.work:hover{
+    font-size: 3rem;
+    color:red;
+}
+.list{
+    position: relative;
+    right:35rem;
+    width:50rem;
+    height:30rem;
+    top: 28rem;
+    background-image: linear-gradient(red,blue);
+    
+    border-radius: 10rem;
+    display:none;
+    transition: 2s ease;
+
+}
+.list ul li{
+    list-style:none;
+    position: relative;
+    width: 30rem;
+    
+    top: 3rem;
+    height:5rem;
+    font-size: 1.7rem;
+    left: 2rem;
+    font-weight: 900;
+    top:6rem;
+   }
+   .list ul li span{
+       color: red;
+   }
+   
+  .list.showex{
+      display:block;
+      transition: 2s ease;
+  }
+  .skill{
+      position: relative;
+      right:35rem;
+    width:55rem;
+    height:35rem;
+    top: 28rem;
+    background-image: linear-gradient(orange,green);
+    
+    border-radius: 10rem;
+    
+    display: none;
+  }
+  .skill ul li{
+      list-style:none;
+    position: relative;
+    width: 30rem;
+    
+    top: 5rem;
+    height:5rem;
+    font-size: 1.7rem;
+    left: 0rem;
+    font-weight: 900;
+    top:7rem;
+    padding-top: 1rem;
+    color:white;
+    
+  }
+
+.skill ul li span{
+    color:red;
+}
+.skill.showsk{
+    display:block;
+}
+/*------ABOUT SECTION END--------*/
+/*----SEVICES SECTION START-----*/
+.mainhd{
+    text-align: center;
+}
+
+.mainhd h2{
+ position: relative;
+ top: 20rem;
+ left: 24rem;
+ font-size: 7rem;
+ border-bottom: .2rem solid white;
+ width:40rem;
+    
+}
+.mainrow{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top:20rem;
+    width:85rem;
+    font-size: 2rem;
+    max-width: 150rem;
+    flex-direction: column;
+    background-color: rgba(20,20,40,.9);
+    border-radius: 10rem;
+    left:0rem;
+    
+    
+   }
+ .akast{
+     margin:10rem;
+     left:0rem;
+     position:relative;
+    line-height: 4rem;
+    background-color: rgba(95,158,160,.6);
+    width:65rem;
+    line-height: 7rem;
+    height: 65rem;
+    border-radius: 5rem;
+    transition: .5s ease;
+    
+    
+ }
+ .akmtt{
+margin:10rem;
+     left: 0rem;
+     position:relative;
+    line-height: 7rem;
+    background-color: rgba(95, 158, 160, .6);
+    width:65rem;   
+    height: 65rem;
+    border-radius: 5rem;
+transition: .5s ease;
+ }
+ .akadfgh{
+margin:10rem;
+     left:0rem;
+     position:relative;
+    line-height: 4rem;
+    background-color: rgba(95, 158, 160, .6);
+    width: 65rem;
+    line-height: 7rem;
+    height: 65rem;
+    border-radius: 5rem;
+    transition: .5s ease;
+ }
+ 
+  .mainrow i{
+      
+font-size: 5rem;
+width:25rem;
+color:white;
+position:relative;
+top:5rem;
+  }
+  .mainrow h2{
+      font-size: 5rem;
+      font-weight: 800;
+  } 
+   .mainrow p{
+       font-size: 3rem;
+       width:55rem;
+       position: relative;
+       left:5rem;
+   }
+    .akast:hover{
+       transform: translateY(-2rem);
+       background: #ff1a1a;
+    }
+    .akmtt:hover{
+transform: translateY(-2rem);
+       background: #ff1a1a;
+    }
+    .akadfgh:hover{
+        transform: translateY(-2rem);
+       background: #ff1a1a;
+    }
+    .btn{
+        width:30rem;
+     height:9rem;
+     background-color:#ff1a1a;
+     position:relative;
+     top: 30rem;
+     left:28rem;
+     font-size: 4rem;
+     border-radius:2rem;
+    color:white;
+    }
+/*----CONTACT section start----*/
+.head8 h2{
+    font-size:4rem;
+    color:orange;
+    top:45rem;
+    position:relative;
+    left:4rem;
+    font-weight:700;
+   }
+   .rcontactmain{
+       position: relative;
+       top: 47rem;
+       left:5rem;
+       font-size: 2rem;
+       line-height:9rem;
+       word-spacing: 2rem;
+       
+   }
+   .remail i{
+       font-size: 5rem;
+       margin-left: 1rem;
+       width:70rem;
+       color: #ff1a1a;
+   }
+   .remail i span{
+       font-size: 4rem;
+       width:70rem;
+       color: white;
+   }
+   .rphone i{
+       font-size: 5rem;
+       margin-left: 1rem;
+       width:70rem;
+       color:#ff1a1a;
+   }
+ .rphone i span{
+     font-size: 4rem;
+       width:70rem;
+       color: white;
+ }
+ .rlogo{
+     font-size: 4rem;
+     position: relative;
+     top:50rem;
+     left:5rem;
+     display:flex;
+    justify-content:space-around;
+    width: 40rem;
+  }
+ .rlogo a{
+     text-decoration: none;
+     color:white;
+   }
+   .ddddd{
+       position: relative;
+      border:.2rem solid black;
+      background-color:#ff1a1a;
+      top: 60rem;
+      left: 5rem;
+      width: 30rem;
+      height: 7rem;
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 3rem;
+   }
+   
+  .ddddd a{
+      font-size: 4rem;
+      color:white;
+      text-decoration: none;
+      
+  } 
+  
+  .ddddd i{
+      font-size: 4rem;
+  }
+  .input{
+      position: relative;
+      display:flex;
+      flex-direction:column;
+      top:75rem;
+      left:5rem;
+      height:65rem;
+     justify-content: space-between;
+  }
+  .input input{
+     border:none;
+     height:7rem;
+     width:70rem;
+     border-radius: 2rem;
+     background-color: #262636;
+     font-size: 3rem;
+     color:white;
+     padding: 3rem;
+     font-family: 'Playfair Display', serif;
+  }
+  .input textarea{
+     border:none;
+     height:25rem;
+     width:70rem;
+     border-radius: 2rem;
+     background-color: #262636;
+     font-size: 2rem;
+     color: white;
+     padding: 3rem;
+     font-family: 'Playfair Display', serif;
+  }
+ .input input::placeholder{
+       text-align: center;
+       font-size: 3rem;
+       color: white;
+    font-family: 'Playfair Display', serif;
+    }
+     .input textarea::placeholder{
+       text-align: center;
+       font-size: 3rem;
+       color: white;
+    font-family: 'Playfair Display', serif;
+   top:10rem;
+   position: relative;
+    }
+.sub{
+     position: relative;
+     top:85rem;
+     margin-bottom:90rem;
+    }
+    @media(max-width:998px){
+        html{
+            font-size: 90%;
+        }
+       .hamburger{
+      display:none;
+   } 
+    }
+      @media(max-width:480px){
+        html{
+            font-size:25.9%;
+          overflow-x:hidden;  
+         
+        }
+        body{
+         overflow-x:hidden;  
+        }
+        #head{
+    width:92rem;
+    position: relative;
+   background-color: transparent;
+}
+        
+
+      .R2about h2{
+    font-size: 4rem;
+    position: relative;
+    top:-4rem;
+    left:3rem;
+    
+}
+.lorem{
+    
+    width:20rem;
+    position: absolute;
+    
+}
+.lorem p{
+    font-size:1rem;
+    top:6rem;
+    
+    position:relative;
+    left:28rem;
+    width:40rem;
+    
+    line-height:2rem;
+    
+    }
+   .link{
+       position: relative;
+       top:34rem;
+       right:5rem;
+   }
+   .list{
+    position: relative;
+    right:43rem;
+    width:50rem;
+    height:30rem;
+    top: 40rem;
+    background-image: linear-gradient(red,blue);
+    
+    border-radius: 10rem;
+    display:none;
+    transition: 2s ease;
+    margin-bottom: 40rem;
+
+}
+.list ul li{
+    list-style:none;
+    position: relative;
+    width:20rem;
+    
+    top:1rem;
+    height:7rem;
+    font-size:1.5rem;
+    left:-5rem;
+    font-weight: 900;
+    
+   }
+   .skill{
+      position: relative;
+      right:43rem;
+    width:50rem;
+    height:38rem;
+    top: 40rem;
+    background-image: linear-gradient(orange,green);
+    
+    border-radius: 10rem;
+    
+    display: none;
+    margin-bottom: 40rem;
+    line-height: 2rem;
+  }
+  .skill ul li{
+      list-style:none;
+    position: relative;
+    width: 20rem;
+    
+    top: 1rem;
+    height:5rem;
+    font-size: 1.7rem;
+    left: -5rem;
+    font-weight: 900;
+    top:7rem;
+    padding-top: 1rem;
+    color:white;
+    
+  }
+  .skill ul li .akaka{
+      position: relative;
+      top: 4rem;
+  }
+  
+.sub{
+    border:none;
+}
+.btn{
+    border:none;
+}
+
+}
+.akast:hover{
+       transform: translateY(-2rem);
+       background: #ff1a1a;
+    }
+    .akmtt:hover{
+transform: translateY(-2rem);
+       background: #ff1a1a;
+    }
+    .akadfgh:hover{
+        transform: translateY(-2rem);
+       background: #ff1a1a;
+    }
+   .hamburger{
+      display:block;
+      float: right;
+      position: relative;
+      right:5rem;
+      top: -14rem;
+   }
+   .hamburger i{
+       position: relative;
+       font-size: 7rem;
+       right: 9rem;
+       z-index:526353637363646;
+      
+   }
+
+ 
+  
